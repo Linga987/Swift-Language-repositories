@@ -13,9 +13,18 @@
 		BEB1AB3D2E65BEBE00A9BB87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEB1AB3C2E65BEBE00A9BB87 /* Base */; };
 		BEB1AB3F2E65BEC100A9BB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB1AB3E2E65BEC100A9BB87 /* Assets.xcassets */; };
 		BEB1AB422E65BEC100A9BB87 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEB1AB412E65BEC100A9BB87 /* Base */; };
-		BEB1AB4D2E65BEC100A9BB87 /* iOSAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB4C2E65BEC100A9BB87 /* iOSAssignmentTests.swift */; };
+		BEB1AB4D2E65BEC100A9BB87 /* RepoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB4C2E65BEC100A9BB87 /* RepoListViewModelTests.swift */; };
 		BEB1AB572E65BEC100A9BB87 /* iOSAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB562E65BEC100A9BB87 /* iOSAssignmentUITests.swift */; };
 		BEB1AB592E65BEC100A9BB87 /* iOSAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB582E65BEC100A9BB87 /* iOSAssignmentUITestsLaunchTests.swift */; };
+		BEB1AB6F2E65C21800A9BB87 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB6A2E65C21800A9BB87 /* Items.swift */; };
+		BEB1AB702E65C21800A9BB87 /* GHRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB6B2E65C21800A9BB87 /* GHRepo.swift */; };
+		BEB1AB742E65CC9300A9BB87 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB732E65CC9300A9BB87 /* NetworkService.swift */; };
+		BEB1AB762E65D22500A9BB87 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB752E65D22500A9BB87 /* RepoListViewModel.swift */; };
+		BEB1AB7B2E661B3000A9BB87 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB7A2E661B3000A9BB87 /* RepoCell.swift */; };
+		BEB1AB7E2E66252100A9BB87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB7D2E66252100A9BB87 /* Extensions.swift */; };
+		BEB1AB802E671C4D00A9BB87 /* Cacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB7F2E671C4D00A9BB87 /* Cacher.swift */; };
+		BEB1AB822E67699900A9BB87 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB1AB812E67699900A9BB87 /* APIEndpoint.swift */; };
+		BEBCEB5E2E6810190089F2BF /* CacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBCEB5D2E6810190089F2BF /* CacherTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +54,19 @@
 		BEB1AB412E65BEC100A9BB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB1AB432E65BEC100A9BB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEB1AB482E65BEC100A9BB87 /* iOSAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEB1AB4C2E65BEC100A9BB87 /* iOSAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAssignmentTests.swift; sourceTree = "<group>"; };
+		BEB1AB4C2E65BEC100A9BB87 /* RepoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModelTests.swift; sourceTree = "<group>"; };
 		BEB1AB522E65BEC100A9BB87 /* iOSAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB1AB562E65BEC100A9BB87 /* iOSAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAssignmentUITests.swift; sourceTree = "<group>"; };
 		BEB1AB582E65BEC100A9BB87 /* iOSAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEB1AB6A2E65C21800A9BB87 /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		BEB1AB6B2E65C21800A9BB87 /* GHRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHRepo.swift; sourceTree = "<group>"; };
+		BEB1AB732E65CC9300A9BB87 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BEB1AB752E65D22500A9BB87 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		BEB1AB7A2E661B3000A9BB87 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		BEB1AB7D2E66252100A9BB87 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BEB1AB7F2E671C4D00A9BB87 /* Cacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cacher.swift; sourceTree = "<group>"; };
+		BEB1AB812E67699900A9BB87 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		BEBCEB5D2E6810190089F2BF /* CacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacherTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +117,13 @@
 		BEB1AB342E65BEBE00A9BB87 /* iOSAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				BEB1AB352E65BEBE00A9BB87 /* AppDelegate.swift */,
-				BEB1AB372E65BEBE00A9BB87 /* SceneDelegate.swift */,
-				BEB1AB392E65BEBE00A9BB87 /* ViewController.swift */,
-				BEB1AB3B2E65BEBE00A9BB87 /* Main.storyboard */,
+				BEB1AB7C2E66250800A9BB87 /* Extensions */,
+				BEB1AB692E65BF0200A9BB87 /* SupportingFiles */,
+				BEB1AB662E65BED800A9BB87 /* Services */,
+				BEB1AB652E65BED100A9BB87 /* Models */,
+				BEB1AB672E65BEE400A9BB87 /* ViewModels */,
+				BEB1AB682E65BEF700A9BB87 /* Views */,
 				BEB1AB3E2E65BEC100A9BB87 /* Assets.xcassets */,
-				BEB1AB402E65BEC100A9BB87 /* LaunchScreen.storyboard */,
 				BEB1AB432E65BEC100A9BB87 /* Info.plist */,
 			);
 			path = iOSAssignment;
@@ -113,7 +132,8 @@
 		BEB1AB4B2E65BEC100A9BB87 /* iOSAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEB1AB4C2E65BEC100A9BB87 /* iOSAssignmentTests.swift */,
+				BEB1AB4C2E65BEC100A9BB87 /* RepoListViewModelTests.swift */,
+				BEBCEB5D2E6810190089F2BF /* CacherTests.swift */,
 			);
 			path = iOSAssignmentTests;
 			sourceTree = "<group>";
@@ -125,6 +145,61 @@
 				BEB1AB582E65BEC100A9BB87 /* iOSAssignmentUITestsLaunchTests.swift */,
 			);
 			path = iOSAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		BEB1AB652E65BED100A9BB87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB6A2E65C21800A9BB87 /* Items.swift */,
+				BEB1AB6B2E65C21800A9BB87 /* GHRepo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BEB1AB662E65BED800A9BB87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB732E65CC9300A9BB87 /* NetworkService.swift */,
+				BEB1AB7F2E671C4D00A9BB87 /* Cacher.swift */,
+				BEB1AB812E67699900A9BB87 /* APIEndpoint.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BEB1AB672E65BEE400A9BB87 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB752E65D22500A9BB87 /* RepoListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEB1AB682E65BEF700A9BB87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB392E65BEBE00A9BB87 /* ViewController.swift */,
+				BEB1AB7A2E661B3000A9BB87 /* RepoCell.swift */,
+				BEB1AB3B2E65BEBE00A9BB87 /* Main.storyboard */,
+				BEB1AB402E65BEC100A9BB87 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEB1AB692E65BF0200A9BB87 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB352E65BEBE00A9BB87 /* AppDelegate.swift */,
+				BEB1AB372E65BEBE00A9BB87 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BEB1AB7C2E66250800A9BB87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEB1AB7D2E66252100A9BB87 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB1AB6F2E65C21800A9BB87 /* Items.swift in Sources */,
 				BEB1AB3A2E65BEBE00A9BB87 /* ViewController.swift in Sources */,
+				BEB1AB742E65CC9300A9BB87 /* NetworkService.swift in Sources */,
 				BEB1AB362E65BEBE00A9BB87 /* AppDelegate.swift in Sources */,
+				BEB1AB702E65C21800A9BB87 /* GHRepo.swift in Sources */,
+				BEB1AB822E67699900A9BB87 /* APIEndpoint.swift in Sources */,
+				BEB1AB7E2E66252100A9BB87 /* Extensions.swift in Sources */,
 				BEB1AB382E65BEBE00A9BB87 /* SceneDelegate.swift in Sources */,
+				BEB1AB802E671C4D00A9BB87 /* Cacher.swift in Sources */,
+				BEB1AB7B2E661B3000A9BB87 /* RepoCell.swift in Sources */,
+				BEB1AB762E65D22500A9BB87 /* RepoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB1AB4D2E65BEC100A9BB87 /* iOSAssignmentTests.swift in Sources */,
+				BEB1AB4D2E65BEC100A9BB87 /* RepoListViewModelTests.swift in Sources */,
+				BEBCEB5E2E6810190089F2BF /* CacherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
